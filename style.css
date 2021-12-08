@@ -1,0 +1,39 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+header, .banner{
+    background-color: #10103A;
+}
+
+
+header nav ul li a{
+    font-size: 20px;
+}
+
+.banner{
+    margin-top: 94px;
+}
+
+.banner h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.banner h2{
+    color: yellow;
+    font-weight: 1000;
+}
+
+.banner p{
+    font-weight: 550;
+}
+
+
+.about h1{
+    color: black !important;
+    font-weight: 800;
+}
+
+.about p{
+    color: black !important;
+    font-weight: 700;
+}
