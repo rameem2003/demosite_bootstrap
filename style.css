@@ -1,10 +1,17 @@
 body{
     font-family: 'Ubuntu', sans-serif;
 }
-header, .banner{
+header, .banner, .services{
     background-color: #10103A;
 }
 
+h1{
+    font-weight: 800;
+}
+
+h3{
+    font-weight: 600;
+}
 
 header nav ul li a{
     font-size: 20px;
@@ -16,7 +23,6 @@ header nav ul li a{
 
 .banner h1{
     font-size: 45px;
-    font-weight: 500;
 }
 .banner h2{
     color: yellow;
@@ -30,10 +36,46 @@ header nav ul li a{
 
 .about h1{
     color: black !important;
-    font-weight: 800;
 }
 
 .about p{
     color: black !important;
     font-weight: 700;
+}
+
+
+.services .box{
+    width: 95%;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 0 12px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.services .box:hover{
+    background-color: #202072;
+}
+
+
+
+.strategy h1{
+    color: black !important;
+}
+
+
+.strategy .box{
+    width: 90%;
+    border-radius: 8px;
+}
+
+.strategy .box .inner{
+    box-shadow: 16px 20px 6px 9px #29212121;
+}
+
+.strategy .box button{
+    margin-top: 25px;
+    padding: 10px 25px;
+    font-size: 20px;
+    cursor: pointer;
 }
