@@ -98,7 +98,7 @@ header nav ul li a:hover{
     position: relative;
 }
 .contact form{
-    width: 350px;
+    width: 320px;
     background-color: #10103A;
     position: absolute;
     left: 0;
@@ -121,8 +121,8 @@ header nav ul li a:hover{
     margin: 0 auto;
 }
 
-.contact .detail .top{
-    margin-top: 170px;
+.contact .detail{
+    margin-top: 172px;
 }
 
 .contact .detail p{
